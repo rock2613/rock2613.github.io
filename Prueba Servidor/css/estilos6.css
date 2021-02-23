@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.principal{
+    padding: 50px 0;
+	width: 90%;
+	max-width:500px ;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+
+body{
+    background: rgb(20, 20, 20);
+} 
+.marca{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+.titulo{
+    font-family: 'Dancing Script', sans-serif;;
+    font-size: 2rem;
+    text-align: center;
+    color:whitesmoke;
+    text-align: center;
+    letter-spacing: .50rem;
+    margin-top: 30px;
+
+    }
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+	
+
+}
+
+.contenedor .cont{
+    display:flex;
+    border:3px solid rgb(65, 93, 250);
+	background:rgb(174, 209, 241) ;
+	width: 40%;
+	height: 200px;
+    align-items:center;
+    justify-content: space-evenly;
+	border-radius: 5px;
+    box-shadow:rgb(65, 93, 250);
+   
+}
+
+.contenedor .cont img{
+    width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border: 3px solid rgb(65, 93, 250); 
+	border-radius: 50px;
+    display: block;
+    cursor: pointer;
+}
+
+.contenedor .cont  .contenido-texto{
+    width: 70%;
+    color:black;
+}
+
+.contenedor .cont  .contenido-texto h2{
+    font-family: 'Dancing Script', sans-serif;
+    margin:5px ;
+	text-align:center;
+	padding: 5px  0px;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+.contenedor .cont  .contenido-texto p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', sans-serif;
+
+}
+
+#hire{
+	min-height: 5vh;
+	display: flex;
+    width: 20%;
+    height: auto;
+	
+	
+}
+
+.hire-button{
+    font-family: 'Dancing Script', sans-serif;
+    padding: .5rem .5rem;
+	justify-content: center;
+	background-color:rgba(0, 0, 0, 0.267);
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .2rem;
+	margin-top: 30px;
+	color: whitesmoke;
+    transition: .3s ease background-color;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 690px;
+    border-radius: 5px;
+    color:black;
+
+}
+
+.hire-button:hover{
+    background-color: rgb(174, 209, 241);
+    
+}
