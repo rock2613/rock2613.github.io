@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 :root {
     --dark: #1a1a1a;
     --white: #ffffff;
@@ -140,7 +141,7 @@ section {
 #imagen{
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background:url(imagenesb/sl46.jpg) no-repeat center center fixed ;
+    background:url(imagenesb/sl41.jpg) no-repeat center center fixed ;
     background-attachment: fixed  ;
     background-size: cover;
     height: .5rem !important;
@@ -152,6 +153,13 @@ line-height: 10px !important;
 letter-spacing: 10px;
 text-shadow: .1rem .1rem .3rem rgb(238, 231, 231) ;
 
+}
+
+.text-right{
+    font-size: 30px;
+    color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: .1rem .1rem .3rem  black ;
 }
 
 .img-text{
@@ -225,4 +233,36 @@ h9{
 
 hr{
     border-top: 3px solid #4054B2;
+}
+
+@media (max-width:575.98px){
+
+    #imagen{
+       
+        background:url(imagenesb/sl42.jpg) no-repeat center center fixed ;
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
+        background-attachment: fixed !important ;
+        background-size:cover !important;
+       
+    }
+
+    h3{
+        font-size: 25px;
+        line-height: 15px !important;
+        letter-spacing: 3px !important;
+        
+    }
+
+    
+
+    .text-right{
+        font-size: 20px !important;
+    }
+
+    #testimonios{
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+
 }
