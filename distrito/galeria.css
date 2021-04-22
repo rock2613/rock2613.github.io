@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+:root {
+    --dark: #1a1a1a;
+    --white: #ffffff;
+    --light-grey: #efefef;
+    --gold: #ecd5a7;
+    --blue:#008282;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    background-color: #FFBF00;
+    
+}
+
+h1, h2, h3, h4, h5, h6,  .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+h1{
+    color: #4054B2;
+    font-size: 20px;
+    text-shadow: .1rem .1rem .3rem rgb(238, 231, 231) ;
+}
+
+a{
+    color: #4054B2 !important;
+}
+
+a:hover {
+    color: var(--dark);
+    
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.bg-light {
+    background-color: var(--white) !important;
+}
+
+.text-dark{
+    color: var(--dark) !important;
+}
+
+.text-yellow{
+    color:yellow !important;
+}
+
+.text-red{
+    color: red !important;
+}
+
+.text-gold{
+    color: var(--gold) !important;
+}
+.text-light{
+    color: var(--dark) !important;
+}
+.navbar-brand{
+    color: var(--white) !important;
+    font-size:2rem ;
+    position: relative;
+    
+}
+
+.navbar-brand:before
+{
+    content: '';
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent 0%, #ffff 5%, #ffff 100%);
+    animation: animate 10s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        left: -20%;
+    }
+    50%
+    {
+        left: 120%;
+    }
+    100%
+    {
+        left: -120%;
+    }
+}
+
+.navbar {
+    min-height: 6rem ;
+    box-shadow: 0.5rem .5rem rgba(0, 0, 0, .1) ;
+    z-index: 1;
+}
+
+.navbar-toggler{
+    color: #4054B2;
+  
+}
+
+.nav-link { 
+    
+    font-size:1rem;
+    letter-spacing: 1.5px;
+}
+
+
+.whats{
+    position: fixed;
+    bottom: 40px;
+	right:40px;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #008282;
+    z-index: 100;
+    
+}
+ 
+.whats > a{
+    color: white !important;
+    align-items: center !important;
+}
+
+
+.whats >a:hover{
+		
+    text-decoration: none;
+    color:#25d366 !important;
+    background-color: #fff;
+    
+}
+
+section {
+    padding: 6rem 0;
+}
+
+#imagen{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background:url(iml/candidato3.jpg) no-repeat center center fixed ;
+    background-attachment: fixed  ;
+    background-size: cover;
+    height: .5rem !important;
+}
+h3{
+color: #4054B2 !important;
+font-size: 40px;
+line-height: 10px !important;
+letter-spacing: 10px;
+text-shadow: .1rem .1rem .3rem rgb(238, 231, 231) ;
+
+}
+
+.text-right{
+    font-size: 30px;
+    color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: .1rem .1rem .3rem  black ;
+}
+
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #ca1b04;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.img-text h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.img-text p{
+    font-size: 17px;
+}
+
+.single-box{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.img-area{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    
+}
+
+.img-area img{
+    width: 100%;
+}
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom:-70px ;
+}
+
+.carousel-indicators li{
+    
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active{
+    background:#ca1b04;
+}
+
+footer{
+    background: whitesmoke;
+}
+
+h9{
+    color:#ffff;
+    font-size: 25px;
+    text-shadow: .1rem .1rem .3rem rgb(0, 0, 0) ;
+   
+}
+
+hr{
+    border-top: 3px solid red;
+}
+
+@media (max-width:575.98px){
+
+    #imagen{
+       
+        background:url(iml/Loyola5.jpg) no-repeat center center fixed ;
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
+        background-attachment: fixed !important ;
+        background-size:cover !important;
+       
+    }
+
+    h3{
+        font-size: 25px;
+        line-height: 15px !important;
+        letter-spacing: 3px !important;
+        
+    }
+
+    
+
+    .text-right{
+        font-size: 20px !important;
+    }
+
+    #testimonios{
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+
+}
